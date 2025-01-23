@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.vid-logo{
+  border-radius: 100%;
+  outline: 0.6px solid rgb(17, 229, 24);
+}
+.search-bar{
+  width: 600px;
+  border-radius: 40px;
+  margin: none;
+}
+.expert-support .line2{
+  margin-top: -20px;
+}
+.expert-logo-outer{
+  display: flex;
+}
+.expert-logo{
+  margin-top: 16px;
+  height: 20px;
+  width: 20px;
+}
+.login-item{
+  margin-left: 40px;
+  font-size: 20px;
+}
+.cart-item{
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.popular-img1{
+  height: 400px;
+  width: 1000px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(white, rgb(1, 1, 10));
+} */
+.card-wrapper{
+  max-width: 1100px;
+  margin: 0 60px 35px;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+/* .card-item
+{
+  list-style: none;
+} */
+.card-link
+{
+  user-select: none;
+  display: block;
+  background: #FFF;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+.card-link:active{
+  cursor: grabbing;
+}
+.card-link:hover{
+  border-color: rgb(109, 109, 200);
+}
+.card-image{
+  height: 300px;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.badge
+{
+  color: white;
+  padding: 10px;
+  /* font-size: 0.1rem; */
+  /* font-weight: 500; */
+  margin: 10px;
+  background-color: rgb(60, 176, 235);
+  border-radius: 50px;
+  width:fit-content;
+}
+.developer
+{
+  background-color: rgba(247, 8, 8, 0.759);
+  color: rgb(243, 226, 226);
+}
+/* .card-title{
+  font-weight: 400;
+  color: black;
+} */
+.card-button{
+  margin-top: 15px;
+  padding: 8px;
+  color: rgb(10, 69, 99);
+  cursor: pointer;
+  border-radius: 40px;
+  background: none;
+  transition: 0.3s ease-in-out;
+}
+.card-button:hover{
+  background-color: rgb(16, 183, 16);
+  color: white;
+}
+
+.swiper-pagination-bullet{
+  opacity: 0.5;
+  height: 13px;
+  width: 13px;
+  background: rgb(60, 176, 235);
+}
+.swiper-pagination-bullet-active{
+  opacity: 1;
+}
